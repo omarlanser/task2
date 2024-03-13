@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <link rel="styleSheet"  href="style.css"> 
+</head>
+<body>
+    <div class ="container">
+    <div class="title">Personal Data</div>
+    <form action="#">
+        <div class="user-details">
+            <div class="input-inputbox">
+                <span class="details">FirstName</span>
+                <input type="text" placeholder="Enter your FirstName" required>
+            </div>
+            <div class="input-inputbox">
+                <span class="details">SecoundName</span>
+                <input type="text" placeholder="Enter your SecoundName" required>
+            </div>
+            <div class="input-inputbox">
+                <span class="details">Phone</span>
+                <input type="number" placeholder="Enter  your Phone" required>
+            </div>
+            <div class="input-inputbox">
+                <span class="details">E-mail</span>
+                <input type="email" placeholder="Enter  your E-mail" required>
+            </div>
+            <div class="input-inputbox">
+                <span class="details">Password</span>
+                <input type="password" placeholder="Enter  your Password" required>
+            </div>
+            <div class="input-inputbox">
+                <span class="details">Conferm Password</span>
+                <input type="password" placeholder="Conferm  your Password" required>
+            </div>
+        </div>
+        <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1">
+            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender" id="dot-3">
+            <span class="gender-title">Gender</span>
+            <div class="category">
+                <label for="dot-1">
+                    <span class="dot one"></span>
+                    <span class="gender">Male</span>
+                </label>
+                <label for="dot-2">
+                    <span class="dot two"></span>
+                    <span class="gender">Female</span>
+                </label>
+                <label for="dot-3">
+                    <span class="dot three"></span>
+                    <span class="gender">Prefer not to say</span>
+                </label>
+            </div>
+        </div>
+        <br>
+        <div class="check">
+            <input type="checkbox" id="Student" name="Skills" value="Student">
+            <label for="Student" >Student</label>
+            <br>
+            <input type="checkbox" id="Graduated" name="Skills" value="Graduated">
+            <label for="Graduated" >Graduated</label>
+        </div>
+   
+        <div class="button">
+            <input type="submit" value="Regester">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
